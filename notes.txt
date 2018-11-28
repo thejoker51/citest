@@ -1,0 +1,37 @@
+
+
+# make virtual environment
+python -m venv <environment>
+
+# activate environment
+. folder/bin/activate
+
+# git commands
+git add <file.py>
+git commit -m "comment"
+git remove add origin <url>
+git push -u origin master
+
+# libraries for testing
+flake8 # linter
+pytest
+pytest-cov
+
+# setting up a requirements file
+pip freeze > requirements.txt
+
+# running the linter
+flake8 --statistics
+
+# running unit test
+pytest -v --cov
+# cov - code coverage report
+# -v gives you a nicer output
+
+# circleci	expected a config file called
+config.yml in your folder
+.circleci in your repo
+# mappings (key-value pairs), sequences (lists), scalars (strings or numbers)
+
+
+
